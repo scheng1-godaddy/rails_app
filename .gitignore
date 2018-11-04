@@ -31,3 +31,6 @@
 /config/master.key
 
 .idea/workspace.xml
+
+# Ignore Spring files.
+/spring/*.pid
