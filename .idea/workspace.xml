@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2d183b34-ee4b-4472-aaff-fa96d63e6d89" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/users.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/user_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/user_test.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,16 +31,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Gemfile" value="5" />
+          <entry key="Gemfile" value="6" />
           <entry key="Guardfile" value="1" />
           <entry key="css" value="2" />
           <entry key="erb" value="30" />
           <entry key="gitignore" value="3" />
-          <entry key="rb" value="60" />
+          <entry key="rb" value="63" />
           <entry key="ru" value="1" />
           <entry key="scss" value="5" />
           <entry key="xml" value="1" />
-          <entry key="yml" value="1" />
+          <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -45,10 +48,10 @@
           <entry key="CSS" value="2" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="RHTML" value="30" />
-          <entry key="Ruby" value="67" />
+          <entry key="Ruby" value="71" />
           <entry key="SCSS" value="5" />
           <entry key="XML" value="1" />
-          <entry key="YAML" value="1" />
+          <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -56,7 +59,7 @@
           <entry key="Gemfile" value="53" />
           <entry key="erb" value="129" />
           <entry key="gitignore" value="32" />
-          <entry key="rb" value="1254" />
+          <entry key="rb" value="1534" />
           <entry key="ru" value="4" />
           <entry key="scss" value="151" />
           <entry key="yml" value="20" />
@@ -66,7 +69,7 @@
         <counts>
           <entry key="PLAIN_TEXT" value="32" />
           <entry key="RHTML" value="129" />
-          <entry key="Ruby" value="1311" />
+          <entry key="Ruby" value="1591" />
           <entry key="SCSS" value="151" />
           <entry key="YAML" value="20" />
         </counts>
@@ -89,8 +92,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test/models/user_test.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="332">
-                  <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+                <state relative-caret-position="512">
+                  <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -98,8 +101,17 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/models/user.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="69">
-                  <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+                <state relative-caret-position="161">
+                  <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/db/migrate/20181106041324_add_password_digest_to_users.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="115">
+                  <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
                 </state>
               </provider>
             </entry>
@@ -108,11 +120,20 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/db/schema.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="147">
-                  <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+                <state relative-caret-position="92">
+                  <caret line="4" column="74" lean-forward="true" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Gemfile">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="184">
+                  <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
                 </state>
               </provider>
             </entry>
@@ -161,6 +182,8 @@
         <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
         <option value="$PROJECT_DIR$/app/views/users/new.html.erb" />
         <option value="$PROJECT_DIR$/test/integration/site_layout_test.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20181106014116_add_index_to_users_email.rb" />
+        <option value="$PROJECT_DIR$/test/fixtures/users.yml" />
         <option value="$PROJECT_DIR$/test/models/user_test.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
       </list>
@@ -265,6 +288,12 @@
               <item name="rails_app" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rails_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rails_app" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="fixtures" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rails_app" type="b2602c69:ProjectViewProjectNode" />
@@ -421,12 +450,12 @@
       <workItem from="1541220570255" duration="1384000" />
       <workItem from="1541222152354" duration="13285000" />
       <workItem from="1541376987917" duration="2203000" />
-      <workItem from="1541393201137" duration="12748000" />
+      <workItem from="1541393201137" duration="18035000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29620000" />
+    <option name="totallyTimeSpent" value="34907000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -439,7 +468,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1122" y="23" width="1438" height="1417" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25358167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -625,13 +653,6 @@
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/static_pages.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-512">
-          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -747,13 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -761,17 +775,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20181106014116_add_index_to_users_email.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/activemodel-5.2.0/lib/active_model/secure_password.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1480">
+          <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="74" lean-forward="true" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20181106041324_add_password_digest_to_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/models/user_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="512">
+          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        <state relative-caret-position="161">
+          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
         </state>
       </provider>
     </entry>
